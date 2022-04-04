@@ -2,12 +2,16 @@
     text-decoration: line-through
 }
 
+input {
+    margin-left: 10px
+}
 button {
     margin-left: 10px;
-    margin-top: 5px;
+    margin-top: 5px
 }
 
 body {
     background-color: blueviolet;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
+

@@ -34,3 +34,18 @@ const containsVowels = words.filter(function(word) {
     }
     return false;
 });
+
+function extractCompletedTasks() {
+    const allCheckboxes = document.querySelectorAll('input[type="checkbox"]');
+
+    const allCheckboxesArray = Array.from(allCheckboxes);
+
+    const checked = Array.from(allCheckboxesArray).filter(function(box) {
+        return box.checked;
+    })
+
+    const completedTasks = checked.map(function(checkbox) {
+        return checkbox.parentElement.innerText;
+    })
+    return completedTasks;
+}

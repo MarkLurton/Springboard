@@ -29,7 +29,7 @@ const mathStuff = {
 
 const color = {
     periwinkle : '9c88ff',
-    '9c88ff'   : periwinkle
+    '9c88ff'   : 'periwinkle'
 };
 
 function makeColor(name, hex) {

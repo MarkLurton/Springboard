@@ -28,13 +28,12 @@ describe('payments tests with setup and teardown', function() {
     it('should create table row element and pass to append Td with input value', function() {
         appendPaymentTable(createCurPayment());
         let tr = paymentTbody.firstChild
-
         expect(tr.childElementCount).toBe(4);
         expect(tr.childNodes[0].innerText).toBe('$100');
         expect(tr.childNodes[1].innerText).toBe('$25');
         expect(tr.childNodes[2].innerText).toBe('25%');
         expect(tr.childNodes[3].innerText).toBe('X');
-    })
+    }, 10000)
 
     afterEach(function() {
         allPayments = {};

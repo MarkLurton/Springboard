@@ -1,3 +1,5 @@
+# pylint: disable-all
+
 from faker import Faker
 
 

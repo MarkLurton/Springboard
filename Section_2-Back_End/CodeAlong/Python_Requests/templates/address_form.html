@@ -1,0 +1,11 @@
+{% extends 'base.html' %} {% block title %} Address Form {% endblock %} {% block
+content %}
+<h1>Enter Your Address!</h1>
+{% if coords %} {% for label, value in coords.items() %}
+<h3>{{label}}: {{value}}</h3>
+{% endfor %}{% endif %}
+<form action="/geocode">
+  <input type="text" name="address" placeholder="Enter Address" />
+  <button>Submit</button>
+</form>
+{% endblock %}

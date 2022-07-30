@@ -1,4 +1,3 @@
-from re import I
 from flask import Flask, render_template, request
 import requests
 from secret import API_KEY as key
@@ -27,7 +26,7 @@ def show_address_form():
 def get_location():
     """Make get request to API and return response"""
     address = request.args["address"]
-    
+
     coords = get_coords(address)
 
     return render_template('address_form.html', coords=coords)

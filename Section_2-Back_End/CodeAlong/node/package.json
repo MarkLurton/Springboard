@@ -1,0 +1,14 @@
+{
+  "name": "node-along",
+  "version": "1.0.0",
+  "description": "Code Along for Nodejs",
+  "main": "firstNodeFile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mark",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}

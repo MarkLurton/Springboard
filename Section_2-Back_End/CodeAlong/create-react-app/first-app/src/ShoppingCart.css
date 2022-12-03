@@ -1,0 +1,13 @@
+.ShoppingCart {
+  border: 2px solid black;
+  width: 400px;
+}
+
+.ShoppingCart-header {
+  text-align: center;
+}
+
+.ShoppingCart-total {
+  font-size: 2rem;
+  color: olivedrab;
+}

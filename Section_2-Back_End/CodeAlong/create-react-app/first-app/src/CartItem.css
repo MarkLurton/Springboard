@@ -1,0 +1,11 @@
+.CartItem {
+  border-bottom: 2px solid black;
+}
+
+.CartItem-img {
+  width: 200px;
+}
+
+.CartItme-title {
+  margin-left: 10px;
+}
